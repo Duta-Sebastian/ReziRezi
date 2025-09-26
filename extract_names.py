@@ -36,6 +36,7 @@ async def generate_ai_response(file_path: str):
 
 def get_normalized_path(file: str) -> str:
     return "".join(file.split('/')[-1].split('.')[0].split())
+
 async def main() -> str:
     refactored_file_names = {}
     for file in Path("transcripts").iterdir():
