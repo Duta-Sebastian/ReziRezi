@@ -5,8 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "langchain-community>=0.3.30",
+    "langchain-experimental>=0.3.4",
     "langchain-google-vertexai>=2.1.2",
     "langchain[google]>=0.3.27",
     "langgraph>=0.6.7",
+    "networkx>=3.5",
     "python-dotenv>=1.1.1",
+    "pyvis>=0.3.2",
+    "torch>=2.8.0",
+    "transformers>=4.56.2",
 ]
